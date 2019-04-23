@@ -1,2 +1,2 @@
 # spring-boot-demo
-Just spring boot demo project for cloud deploy
+Just a Spring Boot - React.js demo project for cloud deploy
