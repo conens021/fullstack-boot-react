@@ -34,6 +34,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ServerApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Started service");
 		SpringApplication.run(ServerApplication.class, args);
 	}
 }
