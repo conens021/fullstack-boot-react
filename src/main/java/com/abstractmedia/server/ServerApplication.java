@@ -29,6 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ServerApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
+		System.out.println("Started service");
 		SpringApplication.run(ServerApplication.class, args);
 	}
 }
