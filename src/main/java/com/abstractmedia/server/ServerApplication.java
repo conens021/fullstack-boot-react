@@ -107,7 +107,7 @@ class Beer {
 }
 
 @RepositoryRestResource
-@CrossOrigin(origins = {"http://localhost:3000","http://localhost:5000","http://10.8.8.55:5000"})
+@CrossOrigin(origins = {"http://localhost:5000","http://165.227.128.198:5000"})
 interface BeerRepository extends JpaRepository<Beer, Integer> {
 
 }
